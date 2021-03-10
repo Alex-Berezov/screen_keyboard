@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen keyboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <main>
+        <article>
+            <div class="wrapper">
+                <section id="screen" class="screen">
+                    <textarea id="inpText" rows="5"></textarea>
+                </section>
+                <section id="keyboard" class="keyboard">
+                    <div class="keyboard_row keyboard_row-0">
+                        <button id="send" class="send">Send</button>
+                    </div>
+                    <div class="keyboard_row keyboard_row-1">
+                        <button class="letter ru" value="й">Й</button>
+                        <button class="letter ru" value="ц">Ц</button>
+                        <button class="letter ru" value="у">У</button>
+                        <button class="letter ru" value="к">К</button>
+                        <button class="letter ru" value="е">Е</button>
+                        <button class="letter ru" value="н">Н</button>
+                        <button class="letter ru" value="г">Г</button>
+                        <button class="letter ru" value="ш">Ш</button>
+                        <button class="letter ru" value="щ">Щ</button>
+                        <button class="letter ru" value="з">З</button>
+                        <button class="letter ru" value="х">Х</button>
+                        <button class="letter ru" value="ъ">Ъ</button>
+                        <button class="letter eng" value="q">Q</button>
+                        <button class="letter eng" value="w">W</button>
+                        <button class="letter eng" value="e">E</button>
+                        <button class="letter eng" value="r">R</button>
+                        <button class="letter eng" value="t">T</button>
+                        <button class="letter eng" value="y">Y</button>
+                        <button class="letter eng" value="u">U</button>
+                        <button class="letter eng" value="i">I</button>
+                        <button class="letter eng" value="o">O</button>
+                        <button class="letter eng" value="p">P</button>
+                    </div>
+                    <div class="keyboard_row keyboard_row-2">
+                        <button class="letter ru" value="ф">Ф</button>
+                        <button class="letter ru" value="ы">Ы</button>
+                        <button class="letter ru" value="в">В</button>
+                        <button class="letter ru" value="а">А</button>
+                        <button class="letter ru" value="п">П</button>
+                        <button class="letter ru" value="р">Р</button>
+                        <button class="letter ru" value="о">О</button>
+                        <button class="letter ru" value="л">Л</button>
+                        <button class="letter ru" value="д">Д</button>
+                        <button class="letter ru" value="ж">Ж</button>
+                        <button class="letter ru" value="э">Э</button>
+                        <button class="letter eng" value="a">A</button>
+                        <button class="letter eng" value="s">S</button>
+                        <button class="letter eng" value="d">D</button>
+                        <button class="letter eng" value="f">F</button>
+                        <button class="letter eng" value="g">G</button>
+                        <button class="letter eng" value="h">H</button>
+                        <button class="letter eng" value="j">J</button>
+                        <button class="letter eng" value="k">K</button>
+                        <button class="letter eng" value="l">L</button>
+                    </div>
+                    <div class="keyboard_row keyboard_row-3">
+                        <button id="shift" value="" class="shift">Shift</button>
+                        <button class="letter ru" value="я">Я</button>
+                        <button class="letter ru" value="ч">Ч</button>
+                        <button class="letter ru" value="с">С</button>
+                        <button class="letter ru" value="м">М</button>
+                        <button class="letter ru" value="и">И</button>
+                        <button class="letter ru" value="т">Т</button>
+                        <button class="letter ru" value="ь">Ь</button>
+                        <button class="letter ru" value="б">Б</button>
+                        <button class="letter ru" value="ю">Ю</button>
+                        <button class="letter eng" value="z">Z</button>
+                        <button class="letter eng" value="x">X</button>
+                        <button class="letter eng" value="c">C</button>
+                        <button class="letter eng" value="v">V</button>
+                        <button class="letter eng" value="b">B</button>
+                        <button class="letter eng" value="n">N</button>
+                        <button class="letter eng" value="m">M</button>
+                        <button id="backspace" value=""><-</button>
+                    </div>
+                    <div class="keyboard_row keyboard_row-4">
+                        <button id="sym">sym*</button>
+                        <button class="lang">Ru</button>
+                        <button id="space" value=" "><img src="space.png"></button>
+                        <button value="#">Enter</button>
+                    </div>
+                    <div id="symbols" class="symbols">
+                        <div class="symbols_row symbols_row_1">
+                            <button value="1">1</button>
+                            <button value="2">2</button>
+                            <button value="3">3</button>
+                            <button value="4">4</button>
+                            <button value="5">5</button>
+                            <button value="6">6</button>
+                            <button value="7">7</button>
+                            <button value="8">8</button>
+                            <button value="9">8</button>
+                            <button value="0">0</button>
+                        </div>
+                        <div class="symbols_row symbols_row_2">
+                            <button value="+">+</button>
+                            <button value="-">-</button>
+                            <button value="*">*</button>
+                            <button value="/">/</button>
+                            <button value="=">=</button>
+                            <button value="\">\</button>
+                            <button value=".">.</button>
+                            <button value=",">,</button>
+                            <button value="!">!</button>
+                            <button value="?">?</button>
+                        </div>
+                        <div class="symbols_row symbols_row_3">
+                            <button value="@">@</button>
+                            <button value="#">#</button>
+                            <button value="$">$</button>
+                            <button value="%">%</button>
+                            <button value="&">&</button>
+                            <button value="(">(</button>
+                            <button value=")">)</button>
+                            <button value="_">_</button>
+                            <button value=":">:</button>
+                            <button value=";">;</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+article {
+    padding-left: 600px;
+    padding-right: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-end;
+    
+}
+article .wrapper {
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+article .wrapper .screen {
+    width: 97%;
+    padding: 10px;
+}
+
+article .wrapper .screen #inpText {
+    width: -webkit-fill-available;
+}
+
+article .wrapper .keyboard {
+    width: 97%;
+    padding: 10px;
+}
+
+article .wrapper .keyboard .keyboard_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+article .wrapper .keyboard .keyboard_row button {
+    cursor: pointer;
+}
+
+article .wrapper .keyboard .keyboard_row-0 button {
+    width: calc(15% - 10px);
+    background: green;
+    margin-left: auto;
+}
+
+article .wrapper .keyboard .keyboard_row-1 button {
+    width: calc(9% - 10px);
+}
+
+article .wrapper .keyboard .keyboard_row-2 button {
+    width: calc(9% - 10px);
+}
+
+article .wrapper .keyboard .keyboard_row-3 button {
+    width: calc(9% - 10px);
+}
+article .wrapper .keyboard .keyboard_row-3 button:nth-child(1) {
+    width: calc(12% - 10px);
+}
+
+article .wrapper .keyboard .keyboard_row-4 button:nth-child(1) {
+    width: calc(11% - 10px);
+}
+article .wrapper .keyboard .keyboard_row-4 button:nth-child(2) {
+    width: calc(10% - 10px);
+}
+article .wrapper .keyboard .keyboard_row-4 button:nth-child(3) {
+    width: calc(40% - 10px);
+}
+article .wrapper .keyboard .keyboard_row-4 button:nth-child(4) {
+    width: calc(25% - 10px);
+}
+article .wrapper .keyboard .keyboard_row #space img {
+    width: 12%;
+}
+
+article .wrapper .keyboard .symbols {
+    display: none;
+    width: 33.3%;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 65px;
+}
+article .wrapper .keyboard .symbols .symbols_row {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+
+article .wrapper .keyboard .symbols button {
+    width: calc(10% - 5px);
+    cursor: pointer;
+}
+
+.eng {
+    display: none;
+}
+
+.is_active {
+    display: block !important;
+}
+
+.is_hidden {
+    display: none !important;
+}
+
+.upper {
+    text-transform: uppercase !important;
+}
+.blue {
+    background: #1e88e5;
+    color: white;
+}
